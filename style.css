@@ -1,0 +1,76 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Fixed Navigation Bar */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    padding: 20px 0;
+    box-shadow: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #b71f1f;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  /* Hover Effects */
+  nav ul li a:hover {
+    color: #144b9d;
+    border-bottom: 2px solid #102C57;
+  }
+  
+  /* Scroll Background Color Change */
+  .scrolled {
+    background-color: #C96868;
+    box-shadow: 0px 4px 2px -2px gray;
+  }
+  
+  .scrolled ul li a {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Section Styles */
+  section {
+    height: 100vh;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #D2E0FB;
+  }
+  
+  #services {
+    background-color: #450707;
+  }
+  
+  #about {
+    background-color: #7dae34;
+  }
+  
+  #contact {
+    background-color: #48a1b2;
+  }
